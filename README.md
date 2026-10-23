@@ -8,6 +8,7 @@ title or description of their own. Each guide here is a plain folder with an `in
 | Guide | Folder |
 |---|---|
 | Best screen drawing apps for Mac (2026) | `best-screen-annotation-apps-mac/` |
+| Presentify alternative for Mac | `presentify-alternative-mac/` |
 
 ## Preview
 
