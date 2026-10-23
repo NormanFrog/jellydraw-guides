@@ -16,14 +16,27 @@ title or description of their own. Each guide here is a plain folder with an `in
 
 ## Publish (GitHub Pages on guides.jellydraw.app)
 
-1. Create a public repo (e.g. `NormanFrog/jellydraw-guides`) and copy this folder's contents into it.
-2. Add a `CNAME` file containing `guides.jellydraw.app`.
-3. Repo Settings → Pages → Deploy from branch `main`, root.
-4. Porkbun DNS: `CNAME guides → normanfrog.github.io`. Back in Pages, tick Enforce HTTPS.
-5. Link to the guide from the jellydraw.app footer, so search engines find it and it inherits
-   some of the homepage's authority.
-6. Submit the URL in Google Search Console and Bing Webmaster Tools (Bing feeds ChatGPT search
-   and Copilot).
+This folder is the whole site: `index.html` lists the guides, plus `CNAME`, `robots.txt`,
+`sitemap.xml` and `.nojekyll`. It's published to its own repo with `git subtree`, so this folder
+stays the source of truth.
+
+First time:
+
+1. On github.com, create an empty public repo `NormanFrog/jellydraw-guides` (no README).
+2. From the repo root: `git subtree push --prefix marketing/guides https://github.com/NormanFrog/jellydraw-guides.git main`
+3. In jellydraw-guides: Settings → Pages → Deploy from a branch → `main`, `/ (root)`.
+   Custom domain should read `guides.jellydraw.app` (from `CNAME`).
+4. Porkbun DNS for jellydraw.app: add `CNAME`, host `guides`, answer `normanfrog.github.io`.
+5. When GitHub's DNS check passes, tick Enforce HTTPS. Optionally verify the domain under your
+   GitHub account's Settings → Pages so nobody else can claim the subdomain.
+6. In Carrd, link to `https://guides.jellydraw.app/best-screen-annotation-apps-mac/` from the
+   homepage (footer is fine), so search engines find it through jellydraw.app.
+7. Google Search Console: add a Domain property for `jellydraw.app` (a TXT record at Porkbun;
+   covers the subdomain), then submit `https://guides.jellydraw.app/sitemap.xml`. In Bing
+   Webmaster Tools, import from Search Console (Bing feeds ChatGPT search and Copilot).
+
+After editing a guide or adding one (add it to `index.html` and `sitemap.xml`), commit here and
+run the same `git subtree push` command.
 
 The pages' `canonical` and `og:url` assume `https://guides.jellydraw.app/<folder>/`. Change them
 if the guides end up somewhere else.
@@ -35,5 +48,5 @@ and bump the "Updated" date and `dateModified` every few months: stale or wrong 
 trust with readers, search engines and AI assistants alike, and false comparative claims are a
 legal risk. Don't add ratings or reviews to the structured data that aren't real.
 
-The CTA links to `jellydraw.app/buy`, which works once the Carrd `/buy` redirect is added at
-launch. Publish guides only after Download and Buy work.
+Buttons link straight to the always-latest DMG and the live Lemon Squeezy checkout
+(`jellydraw.app/buy` is a 404: Carrd redirects need a higher plan).
