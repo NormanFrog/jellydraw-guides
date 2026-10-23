@@ -17,13 +17,15 @@ title or description of their own. Each guide here is a plain folder with an `in
 ## Publish (GitHub Pages on guides.jellydraw.app)
 
 This folder is the whole site: `index.html` lists the guides, plus `CNAME`, `robots.txt`,
-`sitemap.xml` and `.nojekyll`. It's published to its own repo with `git subtree`, so this folder
-stays the source of truth.
+`sitemap.xml` and `.nojekyll`. It's published from its own repo, `NormanFrog/jellydraw-guides`,
+cloned at `../jellydraw-guides` next to this repo. Its history is this folder's history
+(`git subtree split`), so this folder stays the source of truth: never edit the clone directly.
 
 First time:
 
-1. On github.com, create an empty public repo `NormanFrog/jellydraw-guides` (no README).
-2. From the repo root: `git subtree push --prefix marketing/guides https://github.com/NormanFrog/jellydraw-guides.git main`
+1. On github.com, create an empty public repo `NormanFrog/jellydraw-guides` (no README). ✅
+2. Add `../jellydraw-guides` in GitHub Desktop and push it. (Command-line git has no GitHub
+   login on this Mac, so pushes go through GitHub Desktop.)
 3. In jellydraw-guides: Settings → Pages → Deploy from a branch → `main`, `/ (root)`.
    Custom domain should read `guides.jellydraw.app` (from `CNAME`).
 4. Porkbun DNS for jellydraw.app: add `CNAME`, host `guides`, answer `normanfrog.github.io`.
@@ -35,8 +37,8 @@ First time:
    covers the subdomain), then submit `https://guides.jellydraw.app/sitemap.xml`. In Bing
    Webmaster Tools, import from Search Console (Bing feeds ChatGPT search and Copilot).
 
-After editing a guide or adding one (add it to `index.html` and `sitemap.xml`), commit here and
-run the same `git subtree push` command.
+After editing a guide or adding one (add it to `index.html` and `sitemap.xml`), commit here,
+run `scripts/sync_guides.sh`, and push `jellydraw-guides` from GitHub Desktop.
 
 The pages' `canonical` and `og:url` assume `https://guides.jellydraw.app/<folder>/`. Change them
 if the guides end up somewhere else.
