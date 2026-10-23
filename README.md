@@ -9,6 +9,7 @@ title or description of their own. Each guide here is a plain folder with an `in
 |---|---|
 | Best screen drawing apps for Mac (2026) | `best-screen-annotation-apps-mac/` |
 | Presentify alternative for Mac | `presentify-alternative-mac/` |
+| ZoomIt for Mac alternative | `zoomit-mac-alternative/` |
 
 ## Preview
 
