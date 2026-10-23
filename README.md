@@ -11,6 +11,7 @@ title or description of their own. Each guide here is a plain folder with an `in
 | Presentify alternative for Mac | `presentify-alternative-mac/` |
 | ZoomIt for Mac alternative | `zoomit-mac-alternative/` |
 | Draw on screen during Zoom/Meet/Teams calls | `draw-on-screen-zoom-meet-teams-mac` |
+| Free ways to draw on your Mac's screen | `free-screen-drawing-mac` |
 
 ## Preview
 
