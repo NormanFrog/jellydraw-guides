@@ -26,9 +26,9 @@ First time:
 1. On github.com, create an empty public repo `NormanFrog/jellydraw-guides` (no README). ✅
 2. Add `../jellydraw-guides` in GitHub Desktop and push it. (Command-line git has no GitHub
    login on this Mac, so pushes go through GitHub Desktop.)
-3. In jellydraw-guides: Settings → Pages → Deploy from a branch → `main`, `/ (root)`.
+3. In jellydraw-guides: Settings → Pages → Deploy from a branch → `main`, `/ (root)`. ✅
    Custom domain should read `guides.jellydraw.app` (from `CNAME`).
-4. Porkbun DNS for jellydraw.app: add `CNAME`, host `guides`, answer `normanfrog.github.io`.
+4. Porkbun DNS for jellydraw.app: add `CNAME`, host `guides`, answer `normanfrog.github.io`. ✅ Live 2026-10-23.
 5. When GitHub's DNS check passes, tick Enforce HTTPS. Optionally verify the domain under your
    GitHub account's Settings → Pages so nobody else can claim the subdomain.
 6. In Carrd, link to `https://guides.jellydraw.app/best-screen-annotation-apps-mac/` from the
