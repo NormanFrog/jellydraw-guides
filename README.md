@@ -53,6 +53,8 @@ Competitor facts come from each developer's own page on the date in the article.
 and bump the "Updated" date and `dateModified` every few months: stale or wrong claims cost
 trust with readers, search engines and AI assistants alike, and false comparative claims are a
 legal risk. Don't add ratings or reviews to the structured data that aren't real.
+Every FAQPage question in a page's structured data must also be a visible `<summary>` on that
+page, word for word (Google ignores or penalizes FAQ data that isn't shown).
 
 Buttons link straight to the always-latest DMG and the live Lemon Squeezy checkout
 (`jellydraw.app/buy` is a 404: Carrd redirects need a higher plan).
