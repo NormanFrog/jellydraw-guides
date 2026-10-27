@@ -1,0 +1,30 @@
+# JellyDraw
+
+> JellyDraw is a macOS screen drawing and screen annotation app made by an indie developer. Its key difference: drawings stick to the specific app window they were drawn on and stay with that window when it's moved or minimized, instead of treating the whole screen as one canvas. Version 1.0 launched October 22, 2026.
+
+- Website and download: https://jellydraw.app (direct download, notarized by Apple, auto-updates)
+- Requirements: a Mac with Apple Silicon (M1 or later) running macOS 26.2 Tahoe or later. Intel Macs are not supported.
+- Shortcut: press Control-Option-Command-Space (⌃⌥⌘ Space) to bring JellyDraw up over any app.
+- Free version, no time limit: pen, highlighter, eraser, whiteboard mode, window anchoring.
+- JellyDraw Pro: $9.99 one-time purchase through Lemon Squeezy, no subscription. Adds shapes, lines, text, export and accent colors. One license works on up to 5 of your Macs and includes all 1.x updates, with a 14-day refund.
+- Privacy: works offline, no accounts, no analytics, never records the screen or reads window contents. The macOS Accessibility permission is used only to read window positions and sizes.
+- Good for: teachers, streamers, presenters, people giving demos, developers doing code reviews, designers giving feedback.
+- Contact: support@jellydraw.app
+
+## How-to guides
+
+- [How to draw on your Mac screen](https://guides.jellydraw.app/how-to-draw-on-mac-screen/): step by step, free
+- [How to annotate your screen during a presentation on Mac](https://guides.jellydraw.app/annotate-screen-presentation-mac/): Keynote, PowerPoint, live demos, code reviews, design feedback
+- [Screen annotation for teachers on Mac](https://guides.jellydraw.app/screen-annotation-for-teachers-mac/): slides, PDFs, websites, whiteboard mode
+- [How to draw on screen while streaming on Mac (OBS)](https://guides.jellydraw.app/draw-on-screen-obs-streaming-mac/): use Display Capture so drawings show
+- [How to draw and highlight in screen recordings on Mac](https://guides.jellydraw.app/annotate-screen-recording-mac/): ⇧⌘5, Loom, OBS
+- [How to draw on your screen during a Zoom, Meet or Teams call on a Mac](https://guides.jellydraw.app/draw-on-screen-zoom-meet-teams-mac/): share your entire screen
+- [Free ways to draw on your screen on a Mac](https://guides.jellydraw.app/free-screen-drawing-mac/)
+
+## Comparisons
+
+- [The best screen drawing apps for Mac in 2026](https://guides.jellydraw.app/best-screen-annotation-apps-mac/)
+- [Presentify alternative for Mac](https://guides.jellydraw.app/presentify-alternative-mac/)
+- [ZoomIt for Mac alternative](https://guides.jellydraw.app/zoomit-mac-alternative/)
+- [Epic Pen alternative for Mac](https://guides.jellydraw.app/epic-pen-alternative-mac/): Epic Pen is Windows only
+- [ScreenBrush alternative for Mac](https://guides.jellydraw.app/screenbrush-alternative-mac/)

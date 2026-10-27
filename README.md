@@ -12,6 +12,13 @@ title or description of their own. Each guide here is a plain folder with an `in
 | ZoomIt for Mac alternative | `zoomit-mac-alternative/` |
 | Draw on screen during Zoom/Meet/Teams calls | `draw-on-screen-zoom-meet-teams-mac` |
 | Free ways to draw on your Mac's screen | `free-screen-drawing-mac` |
+| How to draw on your Mac screen | `how-to-draw-on-mac-screen/` |
+| How to annotate your screen during a presentation on Mac | `annotate-screen-presentation-mac/` |
+| Screen annotation for teachers on Mac | `screen-annotation-for-teachers-mac/` |
+| How to draw on screen while streaming on Mac (OBS) | `draw-on-screen-obs-streaming-mac/` |
+| How to draw and highlight in screen recordings on Mac | `annotate-screen-recording-mac/` |
+| Looking for Epic Pen on Mac? | `epic-pen-alternative-mac/` |
+| ScreenBrush alternative for Mac | `screenbrush-alternative-mac/` |
 
 ## Preview
 
