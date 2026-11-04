@@ -299,6 +299,13 @@
 	.tiers b { display: block; color: var(--ink); margin-bottom: 6px; }
 	.tiers p { margin: 0; font-size: 16px; }
 	@media (max-width: 620px) { .tiers { grid-template-columns: 1fr; } }
+	nav.more-guides { margin-top: 48px; padding: 24px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
+	nav.more-guides h2 { margin: 0 0 14px; font-size: 20px; }
+	nav.more-guides .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px 28px; }
+	nav.more-guides h3 { margin: 0 0 8px; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+	nav.more-guides ul { margin: 0 0 12px; padding-left: 18px; }
+	nav.more-guides li { margin: 4px 0; color: var(--ink-2); }
+	nav.more-guides .app { margin: 8px 0 0; font-size: 15px; }
 </style>
 </head>
 <body>
@@ -388,6 +395,33 @@
 </main>
 
 <div class="wrap">
+	<nav class="more-guides" aria-label="More guides">
+		<h2>More JellyDraw guides</h2>
+		<div class="cols">
+			<div>
+			<h3>Compare apps</h3>
+			<ul>
+				<li><a href="../best-screen-annotation-apps-mac/">Best screen drawing apps for Mac (2026)</a></li>
+				<li><a href="../free-screen-drawing-mac/">Free ways to draw on your Mac screen</a></li>
+				<li><a href="../presentify-alternative-mac/">Presentify alternative for Mac</a></li>
+				<li><a href="../epic-pen-alternative-mac/">Epic Pen alternative for Mac</a></li>
+				<li><a href="../screenbrush-alternative-mac/">ScreenBrush alternative for Mac</a></li>
+				<li><a href="../zoomit-mac-alternative/">ZoomIt for Mac alternative</a></li>
+			</ul>
+			</div>
+			<div>
+			<h3>How-to guides</h3>
+			<ul>
+				<li><a href="../how-to-draw-on-mac-screen/">How to draw on your Mac screen</a></li>
+				<li><a href="../annotate-screen-presentation-mac/">Annotate your screen during a presentation</a></li>
+				<li><a href="../draw-on-screen-zoom-meet-teams-mac/">Draw on screen in Zoom, Meet or Teams</a></li>
+				<li><a href="../draw-on-screen-obs-streaming-mac/">Draw on screen while streaming with OBS</a></li>
+				<li><a href="../annotate-screen-recording-mac/">Draw and highlight in screen recordings</a></li>
+			</ul>
+			</div>
+		</div>
+		<p class="app"><a href="https://jellydraw.app">JellyDraw: free app to draw on your Mac screen</a> · <a href="../">All guides</a></p>
+	</nav>
 	<footer>
 		<p>© 2026 JellyDraw · <a href="https://jellydraw.app">jellydraw.app</a> · <a href="../">Guides</a> · <a href="mailto:support@jellydraw.app">support@jellydraw.app</a> · <a href="https://x.com/JellyDraw_App">X</a></p>
 		<p>Product names belong to their owners and are used only to compare. Details of other apps are taken from their public pages and may have changed since.</p>
